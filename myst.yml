@@ -1,0 +1,19 @@
+version: 1
+project:
+  title: Test Book
+  toc:
+    - file: index.ipynb
+    - file: zadanie_1/1_main.ipynb
+      children:
+        - file: zadanie_1/1_1.ipynb
+        - file: zadanie_1/1_2.ipynb
+        - file: zadanie_1/1_3.ipynb
+        - file: zadanie_1/1_4.ipynb
+        - file: zadanie_1/1_5.ipynb
+site:
+  options:
+    folders: true
+  template: book-theme
+
+files:
+  - file: zadanie_1/1_main.ipynb
