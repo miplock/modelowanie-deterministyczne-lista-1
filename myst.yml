@@ -13,7 +13,10 @@ project:
 site:
   options:
     folders: true
+    baseurl: /modelowanie-deterministyczne-lista-1 
+    url: https://miplock.github.io
   template: book-theme
+
 
 files:
   - file: zadanie_1/1_main.ipynb
